@@ -1,2 +1,2 @@
-# tandrimabhattacharjee.github.io
+# tandrima-bhattacharjee.github.io
 Personal Portfolio
