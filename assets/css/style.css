@@ -217,14 +217,6 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 1024px) {
-  #hero {
-  /* The file size of this background image is 93% smaller
-  to improve page load speed on mobile internet connections */
-  background-image: url("../img/header_images/img22m.jpeg");
-  }
-  }
-
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -271,6 +263,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #hero {
+    background-attachment: fixed;
+    background-image: url("../img/header_images/img22m.jpeg");
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
