@@ -213,7 +213,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/header_images/img22.jpeg") top center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+@media only screen and (max-width: 767px) {
+  #hero {
+  /* The file size of this background image is 93% smaller
+  to improve page load speed on mobile internet connections */
+  background-image: url("../img/header_images/img22m.jpeg");
+  }
+  }
 
 #hero:before {
   content: "";
