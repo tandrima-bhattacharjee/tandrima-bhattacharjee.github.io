@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 828px) {
   #hero {
   /* The file size of this background image is 93% smaller
   to improve page load speed on mobile internet connections */
