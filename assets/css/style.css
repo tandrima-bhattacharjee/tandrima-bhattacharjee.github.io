@@ -265,9 +265,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) {
   #hero {
     /* background-attachment: fixed; */
-    background-size: center;
-    background-repeat: no-repeat;
-    background-image: url("../img/header_images/img22m.jpeg");
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    background: url("../img/header_images/img22m.jpeg") no-repeat center;
   }
   #hero h1 {
     font-size: 28px;
